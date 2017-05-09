@@ -57,6 +57,14 @@ bool HelloWorld::init()
     
     auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
     
+    // create a sprite containing the background image
+    auto backGroundImage = Sprite::create("Welcome_BackGround.png");
+    // set it to be the background
+    backGroundImage->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
+    backGroundImage->setPosition(Vec2(0, 0));
+    this->addChild(backGroundImage);
+    
+    
     // position the label on the center of the screen
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
                             origin.y + visibleSize.height - label->getContentSize().height));
