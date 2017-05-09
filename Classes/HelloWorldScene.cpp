@@ -58,7 +58,7 @@ bool HelloWorld::init()
     auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
     
     // create a sprite containing the background image
-    auto backGroundImage = Sprite::create("Welcome_BackGround.png");
+    auto backGroundImage = Sprite::create("Welcome_BackGround_Fix.png");
     // set it to be the background
     backGroundImage->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
     backGroundImage->setPosition(Vec2(0, 0));
