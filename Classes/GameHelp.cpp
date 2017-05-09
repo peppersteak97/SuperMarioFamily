@@ -24,6 +24,7 @@ bool GameHelp::init()
     
     auto visibleSize = cocos2d::Director::getInstance()->getVisibleSize();
     
-    au
+    auto backLable = 
+    
 }
 
