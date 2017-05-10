@@ -15,6 +15,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		3B130A4C1EC2E24F0046C05B /* 字体使用说明.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B130A4B1EC2E24F0046C05B /* 字体使用说明.md */; };
+		3B130A4D1EC2E24F0046C05B /* 字体使用说明.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B130A4B1EC2E24F0046C05B /* 字体使用说明.md */; };
 		3B14134D1EC2DFC3008B76E6 /* Mario and Luigi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */; };
 		3B14134E1EC2DFC3008B76E6 /* Mario and Luigi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */; };
 		3B14134F1EC2DFC3008B76E6 /* MARIO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413481EC2DFC3008B76E6 /* MARIO.TTF */; };
@@ -136,6 +138,7 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3B130A4B1EC2E24F0046C05B /* 字体使用说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "字体使用说明.md"; sourceTree = "<group>"; };
 		3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mario and Luigi.ttf"; sourceTree = "<group>"; };
 		3B1413481EC2DFC3008B76E6 /* MARIO.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = MARIO.TTF; sourceTree = "<group>"; };
 		3B1413491EC2DFC3008B76E6 /* prstart.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstart.ttf; sourceTree = "<group>"; };
@@ -323,6 +326,7 @@
 			children = (
 				3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */,
 				3B1413481EC2DFC3008B76E6 /* MARIO.TTF */,
+				3B130A4B1EC2E24F0046C05B /* 字体使用说明.md */,
 				3B1413491EC2DFC3008B76E6 /* prstart.ttf */,
 				3B14134A1EC2DFC3008B76E6 /* prstartk.ttf */,
 				3B14134B1EC2DFC3008B76E6 /* SuperMario256.ttf */,
@@ -581,6 +585,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				3B130A4C1EC2E24F0046C05B /* 字体使用说明.md in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
@@ -592,6 +597,7 @@
 			files = (
 				000E2F221EC19E4900B6EB57 /* GameHelp.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				3B130A4D1EC2E24F0046C05B /* 字体使用说明.md in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
