@@ -1,19 +1,27 @@
-//
-//  GameHelp.cpp
-//  SuperMarioFamily
-//
-//  Created by 梁永潮 on 2017/5/9.
-//
-//
-
-/*
- 
- definition of GameHelp class
- 
+/**
+ * @brief GameHelp class used to show a help and about for this game
+ * @file Classes/GameHelp.cpp
+ * @Author Yates Liang
+ *
+ * This is a game helper which can show detailed information about this game
+ * The information includes the instructions of this game, the about info for this game, etc.
+ *
+ * <ChangeLog>
+ * -----------------------------------------------------------------------------------------------
+ * |   <Build>   |   <Author>   | <Description>                                                  |
+ * -----------------------------------------------------------------------------------------------
+ * |201705102128 |   Leon Wong  | Introducing Doxygen for this file.                             |
+ * |             |              |                                                                |
+ * |             |              |                                                                |
+ * -----------------------------------------------------------------------------------------------
  */
 
 #include "GameHelp.hpp"
 
+/**
+ * Initialization of this Layer
+ * @return bool: true if initialization succeed, false otherwise.
+ */
 bool GameHelp::init()
 {
     if(!cocos2d::Layer::create())
@@ -42,7 +50,10 @@ bool GameHelp::init()
     
 }
 
-/// back to the main scene
+/**
+ * Show this scene
+ * @param pSender TODO 潮潮描述一下pSender是什么
+ */
 void GameHelp::menuCallBack(cocos2d::Ref *pSender)
 {
     
@@ -50,6 +61,10 @@ void GameHelp::menuCallBack(cocos2d::Ref *pSender)
     
 }
 
+/**
+ * TODO 潮潮把这里描述一下
+ * @return TODO 潮潮写一下这个return了什么
+ */
 cocos2d::Scene * GameHelp::createScene()
 {
     auto scene = cocos2d::Scene::create();
