@@ -261,11 +261,10 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
-<<<<<<< HEAD
-				000E2F251EC19E4900B6EB57 /* libcocos2d tvOS.a */,
-=======
+
+
 				3BCC60841EC19EBB0081CA89 /* libcocos2d tvOS.a */,
->>>>>>> origin/master
+
 			);
 			name = Products;
 			sourceTree = "<group>";
