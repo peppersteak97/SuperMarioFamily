@@ -15,6 +15,18 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
+		3B14134D1EC2DFC3008B76E6 /* Mario and Luigi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */; };
+		3B14134E1EC2DFC3008B76E6 /* Mario and Luigi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */; };
+		3B14134F1EC2DFC3008B76E6 /* MARIO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413481EC2DFC3008B76E6 /* MARIO.TTF */; };
+		3B1413501EC2DFC3008B76E6 /* MARIO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413481EC2DFC3008B76E6 /* MARIO.TTF */; };
+		3B1413511EC2DFC3008B76E6 /* prstart.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413491EC2DFC3008B76E6 /* prstart.ttf */; };
+		3B1413521EC2DFC3008B76E6 /* prstart.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1413491EC2DFC3008B76E6 /* prstart.ttf */; };
+		3B1413531EC2DFC3008B76E6 /* prstartk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B14134A1EC2DFC3008B76E6 /* prstartk.ttf */; };
+		3B1413541EC2DFC4008B76E6 /* prstartk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B14134A1EC2DFC3008B76E6 /* prstartk.ttf */; };
+		3B1413551EC2DFC4008B76E6 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B14134B1EC2DFC3008B76E6 /* SuperMario256.ttf */; };
+		3B1413561EC2DFC4008B76E6 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B14134B1EC2DFC3008B76E6 /* SuperMario256.ttf */; };
+		3B1413571EC2DFC4008B76E6 /* tlpsmb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B14134C1EC2DFC3008B76E6 /* tlpsmb.ttf */; };
+		3B1413581EC2DFC4008B76E6 /* tlpsmb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B14134C1EC2DFC3008B76E6 /* tlpsmb.ttf */; };
 		3BCC60881EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */; };
 		3BCC60891EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
@@ -77,13 +89,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		000E2F241EC19E4900B6EB57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
-			remoteInfo = "libcocos2d tvOS";
-		};
 		1AC6FAF8180E9839004C840B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
@@ -131,6 +136,12 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mario and Luigi.ttf"; sourceTree = "<group>"; };
+		3B1413481EC2DFC3008B76E6 /* MARIO.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = MARIO.TTF; sourceTree = "<group>"; };
+		3B1413491EC2DFC3008B76E6 /* prstart.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstart.ttf; sourceTree = "<group>"; };
+		3B14134A1EC2DFC3008B76E6 /* prstartk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstartk.ttf; sourceTree = "<group>"; };
+		3B14134B1EC2DFC3008B76E6 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
+		3B14134C1EC2DFC3008B76E6 /* tlpsmb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tlpsmb.ttf; sourceTree = "<group>"; };
 		3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround_Fix.png; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
@@ -261,10 +272,7 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
-
-
 				3BCC60841EC19EBB0081CA89 /* libcocos2d tvOS.a */,
-
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +318,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3B1413461EC2DFB1008B76E6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B1413471EC2DFC3008B76E6 /* Mario and Luigi.ttf */,
+				3B1413481EC2DFC3008B76E6 /* MARIO.TTF */,
+				3B1413491EC2DFC3008B76E6 /* prstart.ttf */,
+				3B14134A1EC2DFC3008B76E6 /* prstartk.ttf */,
+				3B14134B1EC2DFC3008B76E6 /* SuperMario256.ttf */,
+				3B14134C1EC2DFC3008B76E6 /* tlpsmb.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		3BCC60861EC19F340081CA89 /* Welcome_Scene */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +342,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3B1413461EC2DFB1008B76E6 /* Fonts */,
 				3BCC60861EC19F340081CA89 /* Welcome_Scene */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
@@ -467,13 +489,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		000E2F251EC19E4900B6EB57 /* libcocos2d tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libcocos2d tvOS.a";
-			remoteRef = 000E2F241EC19E4900B6EB57 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -502,7 +517,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1413551EC2DFC4008B76E6 /* SuperMario256.ttf in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				3B14134F1EC2DFC3008B76E6 /* MARIO.TTF in Resources */,
+				3B14134D1EC2DFC3008B76E6 /* Mario and Luigi.ttf in Resources */,
+				3B1413571EC2DFC4008B76E6 /* tlpsmb.ttf in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
@@ -513,6 +532,7 @@
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
+				3B1413511EC2DFC3008B76E6 /* prstart.ttf in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
@@ -526,6 +546,7 @@
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				3B1413531EC2DFC3008B76E6 /* prstartk.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,13 +554,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1413581EC2DFC4008B76E6 /* tlpsmb.ttf in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				3B1413561EC2DFC4008B76E6 /* SuperMario256.ttf in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
+				3B14134E1EC2DFC3008B76E6 /* Mario and Luigi.ttf in Resources */,
+				3B1413501EC2DFC3008B76E6 /* MARIO.TTF in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				3BCC60891EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				3B1413541EC2DFC4008B76E6 /* prstartk.ttf in Resources */,
+				3B1413521EC2DFC3008B76E6 /* prstart.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
