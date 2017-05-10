@@ -13,7 +13,7 @@
 class GameHelp: cocos2d::Layer
 {
 public:
-    static cocos2d::Scene * creatScene();
+    static cocos2d::Scene * createScene();
     
     virtual bool init();
     
