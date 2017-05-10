@@ -11,14 +11,16 @@
 		000E2F221EC19E4900B6EB57 /* GameHelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000E2F1F1EC19E4800B6EB57 /* GameHelp.cpp */; };
 		002306BE1EC2E15D00F946BB /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002306BC1EC2E15D00F946BB /* GameScene.cpp */; };
 		002306BF1EC2E15D00F946BB /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002306BC1EC2E15D00F946BB /* GameScene.cpp */; };
+		002306C21EC2E74C00F946BB /* Mario in Resources */ = {isa = PBXBuildFile; fileRef = 002306C11EC2E74C00F946BB /* Mario */; };
+		002306C31EC2E74C00F946BB /* Mario in Resources */ = {isa = PBXBuildFile; fileRef = 002306C11EC2E74C00F946BB /* Mario */; };
+		002306C51EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */; };
+		002306C61EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
-		3BCC60881EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */; };
-		3BCC60891EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
@@ -121,6 +123,8 @@
 		000E2F201EC19E4800B6EB57 /* GameHelp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameHelp.hpp; sourceTree = "<group>"; };
 		002306BC1EC2E15D00F946BB /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		002306BD1EC2E15D00F946BB /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
+		002306C11EC2E74C00F946BB /* Mario */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mario; sourceTree = "<group>"; };
+		002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround_Fix.png; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,7 +132,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround_Fix.png; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
@@ -304,18 +307,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3BCC60861EC19F340081CA89 /* Welcome_Scene */ = {
-			isa = PBXGroup;
-			children = (
-				3BCC60871EC1A1960081CA89 /* Welcome_BackGround_Fix.png */,
-			);
-			name = Welcome_Scene;
-			sourceTree = "<group>";
-		};
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3BCC60861EC19F340081CA89 /* Welcome_Scene */,
+				002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */,
+				002306C11EC2E74C00F946BB /* Mario */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -506,8 +502,9 @@
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				002306C21EC2E74C00F946BB /* Mario in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
-				3BCC60881EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */,
+				002306C51EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
@@ -527,7 +524,8 @@
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
-				3BCC60891EC1A1960081CA89 /* Welcome_BackGround_Fix.png in Resources */,
+				002306C31EC2E74C00F946BB /* Mario in Resources */,
+				002306C61EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

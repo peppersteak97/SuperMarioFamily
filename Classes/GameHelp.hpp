@@ -10,7 +10,7 @@
 #define GameHelp_hpp
 #include "HelloWorldScene.h"
 #include <stdio.h>
-class GameHelp: cocos2d::Layer
+class GameHelp: public cocos2d::Layer
 {
 public:
     static cocos2d::Scene * createScene();

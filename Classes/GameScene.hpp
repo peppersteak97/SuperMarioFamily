@@ -13,13 +13,26 @@
 #define GameScene_hpp
 
 #include "HelloWorldScene.h"
+typedef enum
+{
+    PAUSE=20,
+    CONTINUE,
+    EXIT
+}MENU_INCIDENT;
 
-class GameScene:cocos2d::Layer
+class GameScene:public cocos2d::Layer
 {
     virtual bool init();
     
-    static cocos2d::Scene * cerate
-}
+    static cocos2d::Scene * cerateScene();
+    
+    void menuCallBack(cocos2d::Ref * pSender);
+    
+    void gamePause();
+    
+    void gameContinue();
+    
+};
 
 
 
