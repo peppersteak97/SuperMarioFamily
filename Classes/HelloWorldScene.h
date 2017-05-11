@@ -11,10 +11,18 @@ public:
     virtual bool init();
     
     // a selector callback
-    void menuCloseCallback(cocos2d::Ref* pSender);
-    
+    void menuCallback(cocos2d::Ref* pSender);
+
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+
+	//set he TagMenu
+	typedef enum
+	{
+		SINGLE = 1,
+		MULTI,
+		HELP
+	}TAG_MENU;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

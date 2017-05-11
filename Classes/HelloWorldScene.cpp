@@ -36,7 +36,7 @@ bool HelloWorld::init()
     //    you may modify it.
 
     // add a "close" icon to exit the progress. it's an autorelease object
-    auto closeItem = MenuItemImage::create(
+ /*   auto closeItem = MenuItemImage::create(
                                            "CloseNormal.png",
                                            "CloseSelected.png",
                                            CC_CALLBACK_1(HelloWorld::menuCloseCallback, this));
@@ -47,25 +47,74 @@ bool HelloWorld::init()
     // create menu, it's an autorelease object
     auto menu = Menu::create(closeItem, NULL);
     menu->setPosition(Vec2::ZERO);
-    this->addChild(menu, 1);
+    this->addChild(menu, 1);*/
 
-    /////////////////////////////
+
+	//Put three buttons on the startScene 
+
+	//SinglePlayer Button
+	auto Single = MenuItemImage::create(
+		"Button//SinglePlayer_Normal.png",
+		"Button//SinglePlayer_Clicked.png",
+		"Button//SinglePlayer_Activate.png",
+		CC_CALLBACK_1(HelloWorld::menuCallback,this));
+	Single->setTag(SINGLE);
+	Single->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
+	Single->setScaleX(0.3f);
+	Single->setScaleY(0.3f);
+	Single->setPosition(Point(Vec2(visibleSize.width/2-55,visibleSize.height/2+origin.y-45)));
+	
+
+	//MultiPlayer Button
+	auto Multi = MenuItemImage::create(
+		"Button//MultiPlayer_Normal.png",
+		"Button//MultiPlayer_Clicked.png",
+		"Button//MultiPlayer_Activate.png",
+		CC_CALLBACK_1(HelloWorld::menuCallback,this));
+	Multi->setTag(MULTI);
+	Multi->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
+	Multi->setScaleX(0.3f);
+	Multi->setScaleY(0.3f);
+	Multi->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x, origin.y + visibleSize.height / 2 - 45)));
+
+
+	//Help&About Button
+	auto Help = MenuItemImage::create(
+		"Button//Help&About_Normal.png",
+		"Button//Help&About_Clicked.png",
+		"Button//Help&About_Activate.png",
+		CC_CALLBACK_1(HelloWorld::menuCallback,this));
+	Help->setTag(HELP);
+	Help->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
+	Help->setScaleX(0.3f);
+	Help->setScaleY(0.3f);
+	Help->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x*2 + 55, origin.y + visibleSize.height / 2 - 45)));
+	
+
+
+	auto menu = Menu::create(Single,Multi,Help, NULL);
+	menu->setPosition(Vec2::ZERO);
+	this->addChild(menu,1);
+    
+	
+	
+	/////////////////////////////
     // 3. add your codes below...
 
     // add a label shows "Hello World"
     // create and initialize a label
     
-    auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
+  //  auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
     
     // create a sprite containing the background image
-    auto backGroundImage = Sprite::create("Welcome_BackGround_Fix.png");
+    auto backGroundImage = Sprite::create("Welcome_BackGround.png");
     // set it to be the background
     backGroundImage->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
     backGroundImage->setPosition(Vec2(0, 0));
     this->addChild(backGroundImage);
     
     
-    // position the label on the center of the screen
+  /*  // position the label on the center of the screen
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
                             origin.y + visibleSize.height - label->getContentSize().height));
 
@@ -79,14 +128,29 @@ bool HelloWorld::init()
     sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
 
     // add the sprite as a child to this layer
-    this->addChild(sprite, 0);
+    this->addChild(sprite, 0);*/
     
     return true;
 }
 
 
-void HelloWorld::menuCloseCallback(Ref* pSender)
+void HelloWorld::menuCallback(Ref* pSender)
 {
+
+	switch(((Node*)pSender)->getTag())
+	{
+		//open SinglePlayer Scene
+	case SINGLE:
+		break;
+
+		//open MultiPlayer Scene
+	case MULTI:
+		break;
+
+		//open Help&About Scene
+	case HELP:
+		break;
+	}
     //Close the cocos2d-x game scene and quit the application
     Director::getInstance()->end();
 
