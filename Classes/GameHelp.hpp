@@ -19,7 +19,7 @@
 #ifndef GameHelp_hpp
 #define GameHelp_hpp
 #include "HelloWorldScene.h"
-#include <stdio.h>
+
 
 /**
  * Game Help class declaration
