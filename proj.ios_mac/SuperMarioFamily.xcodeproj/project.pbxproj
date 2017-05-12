@@ -19,10 +19,30 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
-		3BB6E9FF1EC58763000F44FD /* Welcome_BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6E9FE1EC58763000F44FD /* Welcome_BackGround.png */; };
-		3BB6EA001EC58763000F44FD /* Welcome_BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6E9FE1EC58763000F44FD /* Welcome_BackGround.png */; };
 		3BB6EA031EC5886E000F44FD /* Welcome_BackGround_1024_728.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA021EC5886E000F44FD /* Welcome_BackGround_1024_728.png */; };
 		3BB6EA041EC5886E000F44FD /* Welcome_BackGround_1024_728.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA021EC5886E000F44FD /* Welcome_BackGround_1024_728.png */; };
+		3BB6EA141EC58B65000F44FD /* Help&About_Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA091EC58B65000F44FD /* Help&About_Activate.png */; };
+		3BB6EA151EC58B65000F44FD /* Help&About_Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA091EC58B65000F44FD /* Help&About_Activate.png */; };
+		3BB6EA161EC58B65000F44FD /* Help&About_Clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0A1EC58B65000F44FD /* Help&About_Clicked.png */; };
+		3BB6EA171EC58B65000F44FD /* Help&About_Clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0A1EC58B65000F44FD /* Help&About_Clicked.png */; };
+		3BB6EA181EC58B65000F44FD /* Help&About_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0B1EC58B65000F44FD /* Help&About_Normal.png */; };
+		3BB6EA191EC58B65000F44FD /* Help&About_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0B1EC58B65000F44FD /* Help&About_Normal.png */; };
+		3BB6EA1A1EC58B65000F44FD /* MultiPlayer_Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0C1EC58B65000F44FD /* MultiPlayer_Activate.png */; };
+		3BB6EA1B1EC58B65000F44FD /* MultiPlayer_Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0C1EC58B65000F44FD /* MultiPlayer_Activate.png */; };
+		3BB6EA1C1EC58B65000F44FD /* MultiPlayer_Clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0D1EC58B65000F44FD /* MultiPlayer_Clicked.png */; };
+		3BB6EA1D1EC58B65000F44FD /* MultiPlayer_Clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0D1EC58B65000F44FD /* MultiPlayer_Clicked.png */; };
+		3BB6EA1E1EC58B65000F44FD /* MultiPlayer_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0E1EC58B65000F44FD /* MultiPlayer_Normal.png */; };
+		3BB6EA1F1EC58B65000F44FD /* MultiPlayer_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0E1EC58B65000F44FD /* MultiPlayer_Normal.png */; };
+		3BB6EA201EC58B65000F44FD /* Play_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0F1EC58B65000F44FD /* Play_Button.png */; };
+		3BB6EA211EC58B65000F44FD /* Play_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA0F1EC58B65000F44FD /* Play_Button.png */; };
+		3BB6EA221EC58B65000F44FD /* SinglePlayer_Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA101EC58B65000F44FD /* SinglePlayer_Activate.png */; };
+		3BB6EA231EC58B65000F44FD /* SinglePlayer_Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA101EC58B65000F44FD /* SinglePlayer_Activate.png */; };
+		3BB6EA241EC58B65000F44FD /* SinglePlayer_Clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA111EC58B65000F44FD /* SinglePlayer_Clicked.png */; };
+		3BB6EA251EC58B65000F44FD /* SinglePlayer_Clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA111EC58B65000F44FD /* SinglePlayer_Clicked.png */; };
+		3BB6EA261EC58B65000F44FD /* SinglePlayer_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA121EC58B65000F44FD /* SinglePlayer_Normal.png */; };
+		3BB6EA271EC58B65000F44FD /* SinglePlayer_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA121EC58B65000F44FD /* SinglePlayer_Normal.png */; };
+		3BB6EA281EC58B65000F44FD /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA131EC58B65000F44FD /* Stop.png */; };
+		3BB6EA291EC58B65000F44FD /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6EA131EC58B65000F44FD /* Stop.png */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
@@ -133,8 +153,18 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		3BB6E9FE1EC58763000F44FD /* Welcome_BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround.png; sourceTree = "<group>"; };
 		3BB6EA021EC5886E000F44FD /* Welcome_BackGround_1024_728.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround_1024_728.png; sourceTree = "<group>"; };
+		3BB6EA091EC58B65000F44FD /* Help&About_Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help&About_Activate.png"; sourceTree = "<group>"; };
+		3BB6EA0A1EC58B65000F44FD /* Help&About_Clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help&About_Clicked.png"; sourceTree = "<group>"; };
+		3BB6EA0B1EC58B65000F44FD /* Help&About_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help&About_Normal.png"; sourceTree = "<group>"; };
+		3BB6EA0C1EC58B65000F44FD /* MultiPlayer_Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MultiPlayer_Activate.png; sourceTree = "<group>"; };
+		3BB6EA0D1EC58B65000F44FD /* MultiPlayer_Clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MultiPlayer_Clicked.png; sourceTree = "<group>"; };
+		3BB6EA0E1EC58B65000F44FD /* MultiPlayer_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MultiPlayer_Normal.png; sourceTree = "<group>"; };
+		3BB6EA0F1EC58B65000F44FD /* Play_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play_Button.png; sourceTree = "<group>"; };
+		3BB6EA101EC58B65000F44FD /* SinglePlayer_Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SinglePlayer_Activate.png; sourceTree = "<group>"; };
+		3BB6EA111EC58B65000F44FD /* SinglePlayer_Clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SinglePlayer_Clicked.png; sourceTree = "<group>"; };
+		3BB6EA121EC58B65000F44FD /* SinglePlayer_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SinglePlayer_Normal.png; sourceTree = "<group>"; };
+		3BB6EA131EC58B65000F44FD /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
@@ -310,10 +340,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3BB6EA081EC58B65000F44FD /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				3BB6EA091EC58B65000F44FD /* Help&About_Activate.png */,
+				3BB6EA0A1EC58B65000F44FD /* Help&About_Clicked.png */,
+				3BB6EA0B1EC58B65000F44FD /* Help&About_Normal.png */,
+				3BB6EA0C1EC58B65000F44FD /* MultiPlayer_Activate.png */,
+				3BB6EA0D1EC58B65000F44FD /* MultiPlayer_Clicked.png */,
+				3BB6EA0E1EC58B65000F44FD /* MultiPlayer_Normal.png */,
+				3BB6EA0F1EC58B65000F44FD /* Play_Button.png */,
+				3BB6EA101EC58B65000F44FD /* SinglePlayer_Activate.png */,
+				3BB6EA111EC58B65000F44FD /* SinglePlayer_Clicked.png */,
+				3BB6EA121EC58B65000F44FD /* SinglePlayer_Normal.png */,
+				3BB6EA131EC58B65000F44FD /* Stop.png */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3BB6E9FE1EC58763000F44FD /* Welcome_BackGround.png */,
+				3BB6EA081EC58B65000F44FD /* Button */,
 				3BB6EA021EC5886E000F44FD /* Welcome_BackGround_1024_728.png */,
 				002306C11EC2E74C00F946BB /* Mario */,
 				521A8EA819F11F5000D177D7 /* fonts */,
@@ -496,26 +544,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB6EA161EC58B65000F44FD /* Help&About_Clicked.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
+				3BB6EA1A1EC58B65000F44FD /* MultiPlayer_Activate.png in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				3BB6EA281EC58B65000F44FD /* Stop.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				3BB6EA031EC5886E000F44FD /* Welcome_BackGround_1024_728.png in Resources */,
+				3BB6EA241EC58B65000F44FD /* SinglePlayer_Clicked.png in Resources */,
+				3BB6EA221EC58B65000F44FD /* SinglePlayer_Activate.png in Resources */,
+				3BB6EA1E1EC58B65000F44FD /* MultiPlayer_Normal.png in Resources */,
+				3BB6EA261EC58B65000F44FD /* SinglePlayer_Normal.png in Resources */,
+				3BB6EA141EC58B65000F44FD /* Help&About_Activate.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
+				3BB6EA181EC58B65000F44FD /* Help&About_Normal.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				3BB6EA201EC58B65000F44FD /* Play_Button.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				3BB6EA1C1EC58B65000F44FD /* MultiPlayer_Clicked.png in Resources */,
 				002306C21EC2E74C00F946BB /* Mario in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
-				3BB6E9FF1EC58763000F44FD /* Welcome_BackGround.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
@@ -530,14 +588,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				3BB6EA1F1EC58B65000F44FD /* MultiPlayer_Normal.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
+				3BB6EA1B1EC58B65000F44FD /* MultiPlayer_Activate.png in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
-				3BB6EA001EC58763000F44FD /* Welcome_BackGround.png in Resources */,
+				3BB6EA211EC58B65000F44FD /* Play_Button.png in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				002306C31EC2E74C00F946BB /* Mario in Resources */,
 				3BB6EA041EC5886E000F44FD /* Welcome_BackGround_1024_728.png in Resources */,
+				3BB6EA291EC58B65000F44FD /* Stop.png in Resources */,
+				3BB6EA151EC58B65000F44FD /* Help&About_Activate.png in Resources */,
+				3BB6EA271EC58B65000F44FD /* SinglePlayer_Normal.png in Resources */,
+				3BB6EA231EC58B65000F44FD /* SinglePlayer_Activate.png in Resources */,
+				3BB6EA251EC58B65000F44FD /* SinglePlayer_Clicked.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				3BB6EA1D1EC58B65000F44FD /* MultiPlayer_Clicked.png in Resources */,
+				3BB6EA171EC58B65000F44FD /* Help&About_Clicked.png in Resources */,
+				3BB6EA191EC58B65000F44FD /* Help&About_Normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
