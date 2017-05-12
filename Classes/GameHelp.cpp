@@ -24,7 +24,7 @@
  */
 bool GameHelp::init()
 {
-    if(!cocos2d::Layer::create())
+    if(!cocos2d::Layer::init())
     {
         return false;
         
@@ -32,17 +32,30 @@ bool GameHelp::init()
     
     auto visibleSize = cocos2d::Director::getInstance()->getVisibleSize();
     
-    auto lableBack = cocos2d::Label::createWithSystemFont("Back To Menu","Arial",15);
+    auto lableBack = cocos2d::Label::createWithTTF("Back To Menu","fonts/arial.ttf",24);
+    CCLOG("create lable");
+    
+    auto lableHelp = cocos2d::Label::createWithTTF("Help","fonts/arial.ttf",20);
+    
+    lableHelp->setAnchorPoint(cocos2d::Vec2::ANCHOR_MIDDLE);
+    
+    lableHelp->setPosition(cocos2d::Vec2(visibleSize.width/2,visibleSize.height-lableBack->getContentSize().height));
+    
+    this->addChild(lableHelp);
     
     auto itemBack = cocos2d::MenuItemLabel::create(lableBack, CC_CALLBACK_1(GameHelp::menuCallBack, this));
     
+    itemBack->setPosition(cocos2d::Vec2(visibleSize.width/2,visibleSize.height/2));
+    
+    itemBack->setAnchorPoint(cocos2d::Point::ANCHOR_BOTTOM_LEFT);
+    
     ///add a Sprite below to introduce the game
     
-    auto menu = cocos2d::Menu::create(itemBack,nullptr);
+    auto menu = cocos2d::Menu::create(itemBack,NULL);
     
     menu->setAnchorPoint(cocos2d::Point::ANCHOR_BOTTOM_LEFT);
     
-    menu->setPosition(cocos2d::Vec2(visibleSize.width,0));
+    menu->setPosition(cocos2d::Point::ZERO);
     
     this->addChild(menu);
     
@@ -52,9 +65,9 @@ bool GameHelp::init()
 
 /**
  * Show this scene
- * @param pSender TODO 潮潮描述一下pSender是什么
+ * @param pSender TODO 描述一下pSender是什么
  */
-void GameHelp::menuCallBack(cocos2d::Ref *pSender)
+void GameHelp::menuCallBack(cocos2d::Ref * pSender)
 {
     
     cocos2d::Director::getInstance()->replaceScene(HelloWorld::createScene());
@@ -62,14 +75,14 @@ void GameHelp::menuCallBack(cocos2d::Ref *pSender)
 }
 
 /**
- * TODO 潮潮把这里描述一下
- * @return TODO 潮潮写一下这个return了什么
+ * TODO 把这里描述一下
+ * @return TODO 写一下这个return了什么
  */
 cocos2d::Scene * GameHelp::createScene()
 {
     auto scene = cocos2d::Scene::create();
     
-    auto layer = cocos2d::Layer::create();
+    auto layer = GameHelp::create();
     
     scene->addChild(layer);
     
