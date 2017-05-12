@@ -78,7 +78,7 @@ bool HelloWorld::init()
     Single->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
     Single->setScaleX(0.3f);
     Single->setScaleY(0.3f);
-    Single->setPosition(Point(Vec2(visibleSize.width/2-55,visibleSize.height/2+origin.y-45)));
+    Single->setPosition(Point(Vec2(visibleSize.width/2-200,visibleSize.height/2+origin.y-150)));
     
     
     //MultiPlayer Button
@@ -91,7 +91,7 @@ bool HelloWorld::init()
     Multi->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
     Multi->setScaleX(0.3f);
     Multi->setScaleY(0.3f);
-    Multi->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x, origin.y + visibleSize.height / 2 - 45)));
+    Multi->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x, origin.y + visibleSize.height / 2 - 150)));
     
     
     //Help&About Button
@@ -104,7 +104,7 @@ bool HelloWorld::init()
     Help->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
     Help->setScaleX(0.3f);
     Help->setScaleY(0.3f);
-    Help->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x*2 + 55, origin.y + visibleSize.height / 2 - 45)));
+    Help->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x*2 + 200, origin.y + visibleSize.height / 2 - 150)));
     
     
     
