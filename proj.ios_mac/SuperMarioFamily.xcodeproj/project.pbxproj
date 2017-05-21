@@ -13,15 +13,14 @@
 		002306BF1EC2E15D00F946BB /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002306BC1EC2E15D00F946BB /* GameScene.cpp */; };
 		002306C21EC2E74C00F946BB /* Mario in Resources */ = {isa = PBXBuildFile; fileRef = 002306C11EC2E74C00F946BB /* Mario */; };
 		002306C31EC2E74C00F946BB /* Mario in Resources */ = {isa = PBXBuildFile; fileRef = 002306C11EC2E74C00F946BB /* Mario */; };
-<<<<<<< HEAD
+
 		002306C51EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */; };
 		002306C61EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */; };
 		00D06AA61EC55D7500D141C5 /* Button in Resources */ = {isa = PBXBuildFile; fileRef = 00D06AA51EC55D7500D141C5 /* Button */; };
 		00D06AA71EC55D7500D141C5 /* Button in Resources */ = {isa = PBXBuildFile; fileRef = 00D06AA51EC55D7500D141C5 /* Button */; };
 		00D06AB31EC9F00E00D141C5 /* ActiveEnemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00D06AB11EC9F00E00D141C5 /* ActiveEnemy.cpp */; };
 		00D06AB41EC9F00E00D141C5 /* ActiveEnemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00D06AB11EC9F00E00D141C5 /* ActiveEnemy.cpp */; };
-=======
->>>>>>> origin/master
+
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -155,13 +154,12 @@
 		002306BC1EC2E15D00F946BB /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		002306BD1EC2E15D00F946BB /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
 		002306C11EC2E74C00F946BB /* Mario */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mario; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround_Fix.png; sourceTree = "<group>"; };
 		00D06AA51EC55D7500D141C5 /* Button */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Button; sourceTree = "<group>"; };
 		00D06AB11EC9F00E00D141C5 /* ActiveEnemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActiveEnemy.cpp; sourceTree = "<group>"; };
 		00D06AB21EC9F00E00D141C5 /* ActiveEnemy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ActiveEnemy.hpp; sourceTree = "<group>"; };
-=======
->>>>>>> origin/master
+
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -377,13 +375,11 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
+
 				00D06AA51EC55D7500D141C5 /* Button */,
 				002306C41EC2E7AF00F946BB /* Welcome_BackGround_Fix.png */,
-=======
-				3BB6EA081EC58B65000F44FD /* Button */,
-				3BB6EA021EC5886E000F44FD /* Welcome_BackGround_1024_728.png */,
->>>>>>> origin/master
+
+
 				002306C11EC2E74C00F946BB /* Mario */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
@@ -567,11 +563,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
+
 				00D06AA61EC55D7500D141C5 /* Button in Resources */,
-=======
+
 				3BB6EA161EC58B65000F44FD /* Help&About_Clicked.png in Resources */,
->>>>>>> origin/master
+
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
@@ -623,17 +619,17 @@
 				3BB6EA211EC58B65000F44FD /* Play_Button.png in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				002306C31EC2E74C00F946BB /* Mario in Resources */,
-<<<<<<< HEAD
+
 				002306C61EC2E7AF00F946BB /* Welcome_BackGround_Fix.png in Resources */,
 				00D06AA71EC55D7500D141C5 /* Button in Resources */,
-=======
+
 				3BB6EA041EC5886E000F44FD /* Welcome_BackGround_1024_728.png in Resources */,
 				3BB6EA291EC58B65000F44FD /* Stop.png in Resources */,
 				3BB6EA151EC58B65000F44FD /* Help&About_Activate.png in Resources */,
 				3BB6EA271EC58B65000F44FD /* SinglePlayer_Normal.png in Resources */,
 				3BB6EA231EC58B65000F44FD /* SinglePlayer_Activate.png in Resources */,
 				3BB6EA251EC58B65000F44FD /* SinglePlayer_Clicked.png in Resources */,
->>>>>>> origin/master
+
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
 				3BB6EA1D1EC58B65000F44FD /* MultiPlayer_Clicked.png in Resources */,
 				3BB6EA171EC58B65000F44FD /* Help&About_Clicked.png in Resources */,
