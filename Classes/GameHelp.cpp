@@ -81,6 +81,7 @@ void GameHelp::menuCallBack(cocos2d::Ref * pSender)
 cocos2d::Scene * GameHelp::createScene()
 {
     auto scene = cocos2d::Scene::create();
+
     
     auto layer = GameHelp::create();
     

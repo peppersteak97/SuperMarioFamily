@@ -17,6 +17,7 @@
  */
 #include "GameScene.hpp"
 
+
 /**
  * TODO 潮潮在这里加上描述
  * @return
@@ -44,4 +45,12 @@ void GameScene::menuCallBack(cocos2d::Ref *pSender)
 
 {
     
+}
+
+cocos2d::Scene * GameScene::createScene()
+{
+    auto scene = cocos2d::Scene::createWithPhysics();
+    auto layer = cocos2d::Layer::create();
+    scene->addChild(layer);
+    return scene;
 }

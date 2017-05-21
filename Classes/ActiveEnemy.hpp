@@ -42,7 +42,15 @@ private:
     
     int direction;
     
+    cocos2d::Sprite * enemy;
+    
+    ActiveEnemy * create();
+    
+    
+    
 public:
+    ActiveEnemy();
+    ~ActiveEnemy();
     void kill(){hp--;}
     bool isAlive() const {return (bool)hp;}
     

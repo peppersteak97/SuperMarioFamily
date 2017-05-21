@@ -19,6 +19,7 @@
 #define GameScene_hpp
 
 #include "HelloWorldScene.h"
+#include "Box2D/Box2D.h"
 
 /**
  * @brief an enum used to
@@ -38,7 +39,7 @@ class GameScene:public cocos2d::Layer
 {
     virtual bool init();
     
-    static cocos2d::Scene * cerateScene();
+    static cocos2d::Scene * createScene();
     
     void menuCallBack(cocos2d::Ref * pSender);
     
