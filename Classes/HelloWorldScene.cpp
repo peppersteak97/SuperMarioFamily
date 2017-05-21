@@ -50,6 +50,7 @@ bool HelloWorld::init()
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);*/
 
+<<<<<<< HEAD
 
 	//Put three buttons on the startScene 
 
@@ -97,6 +98,8 @@ bool HelloWorld::init()
 	menu->setPosition(Vec2::ZERO);
 	this->addChild(menu,1);
     
+=======
+>>>>>>> origin/master
 	
 	
 	/////////////////////////////
@@ -108,11 +111,63 @@ bool HelloWorld::init()
   //  auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
     
     // create a sprite containing the background image
+<<<<<<< HEAD
     auto backGroundImage = Sprite::create("Welcome_BackGround_Fix.png");
+=======
+    auto backGroundImage = Sprite::create("Welcome_BackGround_1024_728.png");
+>>>>>>> origin/master
     // set it to be the background
     backGroundImage->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
     backGroundImage->setPosition(Vec2(0, 0));
     this->addChild(backGroundImage);
+    
+    //Put three buttons on the startScene
+    
+    //SinglePlayer Button
+    auto Single = MenuItemImage::create(
+                                        "Button//SinglePlayer_Normal.png",
+                                        "Button//SinglePlayer_Clicked.png",
+                                        "Button//SinglePlayer_Activate.png",
+                                        CC_CALLBACK_1(HelloWorld::menuCallback,this));
+    Single->setTag(SINGLE);
+    Single->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
+    Single->setScaleX(0.3f);
+    Single->setScaleY(0.3f);
+    Single->setPosition(Point(Vec2(visibleSize.width/2-200,visibleSize.height/2+origin.y-150)));
+    
+    
+    //MultiPlayer Button
+    auto Multi = MenuItemImage::create(
+                                       "Button//MultiPlayer_Normal.png",
+                                       "Button//MultiPlayer_Clicked.png",
+                                       "Button//MultiPlayer_Activate.png",
+                                       CC_CALLBACK_1(HelloWorld::menuCallback,this));
+    Multi->setTag(MULTI);
+    Multi->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
+    Multi->setScaleX(0.3f);
+    Multi->setScaleY(0.3f);
+    Multi->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x, origin.y + visibleSize.height / 2 - 150)));
+    
+    
+    //Help&About Button
+    auto Help = MenuItemImage::create(
+                                      "Button//Help&About_Normal.png",
+                                      "Button//Help&About_Clicked.png",
+                                      "Button//Help&About_Activate.png",
+                                      CC_CALLBACK_1(HelloWorld::menuCallback,this));
+    Help->setTag(HELP);
+    Help->setAnchorPoint(Point(cocos2d::Point::ANCHOR_MIDDLE));
+    Help->setScaleX(0.3f);
+    Help->setScaleY(0.3f);
+    Help->setPosition(Point(Vec2(visibleSize.width / 2 + origin.x*2 + 200, origin.y + visibleSize.height / 2 - 150)));
+    
+    
+    
+    auto menu = Menu::create(Single,Multi,Help, NULL);
+    menu->setPosition(Vec2::ZERO);
+    this->addChild(menu,1);
+    
+
     
     
   /*  // position the label on the center of the screen
