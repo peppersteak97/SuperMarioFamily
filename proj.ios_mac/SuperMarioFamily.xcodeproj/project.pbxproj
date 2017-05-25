@@ -153,6 +153,7 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3B00AA151ED6EB5700D4E647 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
 		3BB6EA021EC5886E000F44FD /* Welcome_BackGround_1024_728.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome_BackGround_1024_728.png; sourceTree = "<group>"; };
 		3BB6EA091EC58B65000F44FD /* Help&About_Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help&About_Activate.png"; sourceTree = "<group>"; };
 		3BB6EA0A1EC58B65000F44FD /* Help&About_Clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help&About_Clicked.png"; sourceTree = "<group>"; };
@@ -385,6 +386,7 @@
 				000E2F201EC19E4800B6EB57 /* GameHelp.hpp */,
 				002306BC1EC2E15D00F946BB /* GameScene.cpp */,
 				002306BD1EC2E15D00F946BB /* GameScene.hpp */,
+				3B00AA151ED6EB5700D4E647 /* Hero.h */,
 			);
 			name = Classes;
 			path = ../Classes;
