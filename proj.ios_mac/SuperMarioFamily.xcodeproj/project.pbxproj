@@ -358,12 +358,9 @@
 				000E2F201EC19E4800B6EB57 /* GameHelp.hpp */,
 				002306BC1EC2E15D00F946BB /* GameScene.cpp */,
 				002306BD1EC2E15D00F946BB /* GameScene.hpp */,
-<<<<<<< HEAD
 				00D06AB11EC9F00E00D141C5 /* ActiveEnemy.cpp */,
 				00D06AB21EC9F00E00D141C5 /* ActiveEnemy.hpp */,
-=======
 				3B00AA151ED6EB5700D4E647 /* Hero.h */,
->>>>>>> Hero_Superclass
 			);
 			name = Classes;
 			path = ../Classes;
