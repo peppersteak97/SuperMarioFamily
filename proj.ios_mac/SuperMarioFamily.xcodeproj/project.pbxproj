@@ -165,6 +165,7 @@
 		3BB6EA111EC58B65000F44FD /* SinglePlayer_Clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SinglePlayer_Clicked.png; sourceTree = "<group>"; };
 		3BB6EA121EC58B65000F44FD /* SinglePlayer_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SinglePlayer_Normal.png; sourceTree = "<group>"; };
 		3BB6EA131EC58B65000F44FD /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		3BC1AC481ED7F2130038F5E9 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
@@ -351,6 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
+				3BC1AC481ED7F2130038F5E9 /* Utility.h */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
