@@ -17,7 +17,7 @@
 #ifndef Hero_h
 #define Hero_h
 
-#include "Enemy.h"
+#include "ActiveEnemy.hpp"
 #include "Goomba.h"
 #include "Koopa.h"
 #include "Koopa_dead.h"
@@ -28,7 +28,7 @@
 #include <list>
 
 USING_NS_CC;
-using namespace std
+using namespace std;
 
 /**
  * @brief An enum denoting the hero's status.
@@ -45,7 +45,7 @@ enum HeroState{
 class Hero: public Layer{
 public:
     /// Lives Count
-    static int life = 2;
+    static int life ;
     /// Sprite for hero
     Sprite* heroSprite;
     /// Hero State
