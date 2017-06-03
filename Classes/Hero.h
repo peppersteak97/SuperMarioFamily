@@ -24,6 +24,7 @@
 #include "Piranha.h"
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
+#include "Block.h"
 
 #include <list>
 

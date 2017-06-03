@@ -7,5 +7,5 @@ class fakePrincess : public Block
 public:
 	fakePrincess();
 	~fakePrincess();
-	void collideHero() override;
+	void collideHero(Hero* myHero) override;
 };
